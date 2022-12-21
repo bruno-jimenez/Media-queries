@@ -3,6 +3,9 @@
   padding: 0%;
   margin: 0%;
 }
+
+@media all and (max-width: 480px)
+@media all and (max-width: 480px)
 /*header*/
 /*---header.css responsive ---*/
 
@@ -640,8 +643,27 @@ p {
 
   /* fin annimation diapo*/
 
-   /* footer */
+   /* footer responsive */
 
+.index__footer img{
+        width: 16px;
+        height: 16px;
+    }
+    .index__footer > ul a:hover{
+        transform: none;
+    }
+    .index__footer ul{
+        margin-top: 5%;
+        margin-right: 5%;
+    }
+    .index__footer ul a{
+        margin-left: 0%;
+    }
+
+}
+
+
+/* footer */
    footer{
     background-color: #ffffff;
     padding: 2% 2% 1% 2%;
